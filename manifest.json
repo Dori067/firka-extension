@@ -154,7 +154,7 @@
         "https://*.e-kreta.hu/Orarend/InformaciokOrarend*"
       ],
       "js": ["timetable/timetable.js"],
-      "run_at": "documen_end"
+      "run_at": "document_end"
     },
     {
       "matches": [

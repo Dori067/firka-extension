@@ -37,7 +37,7 @@
         "https://*.e-kreta.hu/*"
       ],
       "css": ["global/maintenance.css"],
-      "run_at": "document_end"
+      "run_at": "document_start"
     },
     {
       "matches": ["https://idp.e-kreta.hu/Account/Login*"],
@@ -50,7 +50,7 @@
       ],
       "js": ["absences/absences.js"],
       "css": ["absences/absences.css"],
-      "run_at": "document_end"
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -58,7 +58,7 @@
       ],
       "js": ["logout/logout.js"],
       "css": ["logout/logout.css"],
-      "run_at": "document_end"
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -66,7 +66,7 @@
       ],
       "js": ["roleselect/roleselect.js"],
       "css": ["roleselect/roleselect.css"],
-      "run_at": "document_end"
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -74,7 +74,7 @@
       ],
       "js": ["forgotpassword/forgotpassword.js"],
       "css": ["forgotpassword/forgotpassword.css"],
-      "run_at": "document_end"
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -82,7 +82,7 @@
       ],
       "js": ["dashboard/dashboard.js"],
       "css": ["dashboard/dashboard.css"],
-      "run_at": "document_end"
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -90,7 +90,7 @@
       ],
       "js": ["grades/grades.js", "grades/chart.js"],
       "css": ["grades/grades.css"],
-      "run_at": "document_end"
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -98,7 +98,7 @@
       ],
       "js": ["timetable/timetable.js"],
       "css": ["timetable/timetable.css"],
-      "run_at": "document_end"
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -106,7 +106,7 @@
       ],
       "js": ["profile/profile.js"],
       "css": ["profile/profile.css"],
-      "run_at": "document_end"
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -114,7 +114,7 @@
       ],
       "js": ["homework/homework.js"],
       "css": ["homework/homework.css"],
-      "run_at": "document_end"
+      "run_at": "document_start"
     }
   ]
 }
